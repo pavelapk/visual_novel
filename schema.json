@@ -5,7 +5,7 @@
   "additionalProperties": {
     "type": "object",
     "required": [
-	  "type",
+      "type",
       "text",
       "bg_img",
       "buttons"

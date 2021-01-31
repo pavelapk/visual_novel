@@ -1,6 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/open_exit</item>
+
+    </style>
+
+    <style name="Theme.VisualNovelBase" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
     <!-- Base application theme. -->
-    <style name="Theme.VisualNovel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.VisualNovel" parent="Theme.VisualNovelBase">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

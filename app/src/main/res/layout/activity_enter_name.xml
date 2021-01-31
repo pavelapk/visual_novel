@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/bg1" />
 
     <TextView
-        android:id="@+id/tvText"
+        android:id="@+id/tvGreeting"
         style="@style/main_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnConfirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvText" />
+        app:layout_constraintTop_toBottomOf="@+id/tvGreeting" />
 
     <Button
         android:id="@+id/btnConfirm"
