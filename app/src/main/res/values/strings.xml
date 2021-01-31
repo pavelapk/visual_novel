@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Visual novel</string>
+    <string name="background">Background</string>
+    <string name="enter_name">Введите свое имя…</string>
 </resources>
