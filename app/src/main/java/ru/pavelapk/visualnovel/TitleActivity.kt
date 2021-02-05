@@ -3,6 +3,7 @@ package ru.pavelapk.visualnovel
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_title.*
 
+
 class TitleActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,4 @@ class TitleActivity : BaseActivity() {
 
         initScene()
     }
-
-    override fun getUsername() = ""
 }

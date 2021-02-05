@@ -15,7 +15,9 @@ class EnterNameActivity : BaseActivity() {
         singleBtn = btnConfirm
 
         initScene()
+
+        etName.setText(getSavedUsername())
     }
 
-    override fun getUsername() = etName.text.toString()
+    override fun getNewUsername() = etName.text.toString()
 }

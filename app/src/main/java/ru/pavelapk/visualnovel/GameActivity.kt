@@ -13,10 +13,8 @@ class GameActivity : BaseActivity() {
         tvText = tvNarration
         imBG = ivBackground
         multipleBtns = arrayOf(btnChoose1, btnChoose2, btnChoose3)
+
         initScene()
-
     }
-
-    override fun getUsername() = intent.getStringExtra(EXTRA_USERNAME) ?: "игрок"
 }
 
